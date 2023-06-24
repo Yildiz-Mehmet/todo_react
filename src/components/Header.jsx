@@ -1,7 +1,16 @@
 import React from "react";
+import HighlightIcon from "@mui/icons-material/Highlight";
+import "./Header.css";
 
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <header>
+      <h1>
+        <HighlightIcon />
+        ToDoList
+      </h1>
+    </header>
+  );
 };
 
 export default Header;
